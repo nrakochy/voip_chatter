@@ -30,8 +30,8 @@ Adhearsion.config do |config|
   ##
   # Use with Asterisk
   #
-  # config.punchblock.platform = :asterisk # Use Asterisk
-  # config.punchblock.username = "manager" # Your AMI username
-  # config.punchblock.password = "password" # Your AMI password
+  config.punchblock.platform = :asterisk # Use Asterisk
+  config.punchblock.username = ENV['AHN_PUNCHBLOCK_USERNAME']# Your AMI username
+  config.punchblock.password = ENV['AHN_PUNCHBLOCK_PASSWORD'] # Your AMI password
   # config.punchblock.host = "asterisk.local-dev.mojolingo.com" # Your AMI host
 end
