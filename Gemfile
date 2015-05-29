@@ -12,6 +12,8 @@ gem 'punchblock', '~> 2.5'
 # See http://adhearsion.com/docs/common_problems#toc_3 for details
 gem 'adhearsion-asr'
 
+
+gem 'adhearsion-asterisk', '~> 1.5.1'
 #
 # Check http://ahnhub.com for a list of plugins you can use in your app.
 # To use them, simply add them here and run `bundle install`.
